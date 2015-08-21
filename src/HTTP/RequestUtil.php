@@ -15,8 +15,9 @@ class RequestUtil
 {
 
     /**
-     * this needs to be secured. 
+     * TODO this needs to be secured. 
      * user can spoof headers and cause XSS issues. 
+     * 
      * 
      * @return Ambigous <string, unknown>
      */
