@@ -1,5 +1,5 @@
 {
-    "name": "solvire/lflib",
+    "name": "solvire/common-utilities",
     "description": "Solvire Utilities Library",
     "require": {
         "nesbot/carbon": "^1.19"
@@ -10,8 +10,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Solvire\\": "src/",
-            "Solvire\\Tests\\": "tests/"
+            "SolvireUtilities\\": "src/",
+            "SolvireUtilities\\Tests\\": "tests/"
         }
     },
     "license": "GPL",
