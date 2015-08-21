@@ -1,14 +1,14 @@
 <?php
-namespace SolvireCommonUtilities\Application;
+namespace Solvire\Application;
 
 /**
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Application
- * @namesapce SolvireCommonUtilities\Application
+ * @namesapce Solvire\Application
  * 
  * Usage:
- *   use SolvireCommonUtilities\Application\Environment as Ev;
+ *   use Solvire\Application\Environment as Ev;
  *   Ev::get($options, $requiredFields) 
  */
 class Environment

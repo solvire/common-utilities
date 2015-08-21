@@ -10,8 +10,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SolvireCommonUtilities\\": "src/",
-            "SolvireCommonUtilities\\Tests\\": "tests/"
+            "Solvire\\": "src/",
+            "Solvire\\Tests\\": "tests/"
         }
     },
     "license": "GPL",

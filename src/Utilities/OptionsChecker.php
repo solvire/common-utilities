@@ -1,11 +1,11 @@
 <?php
-namespace SolvireCommonUtilities\Utilities;
+namespace Solvire\Utilities;
 
 /**
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Solvire
- * @namesapce SolvireCommonUtilities\Utilities
+ * @namesapce Solvire\Utilities
  * 
  * Usage:
  *   use LF\Utility\OptionsChecker as Ch;

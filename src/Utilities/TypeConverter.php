@@ -1,12 +1,12 @@
 <?php
-namespace SolvireCommonUtilities\Utilities;
+namespace Solvire\Utilities;
 
 
 /**
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Utilities
- * @namesapce SolvireCommonUtilities\Utilities
+ * @namesapce Solvire\Utilities
  */
 class TypeConverter
 {

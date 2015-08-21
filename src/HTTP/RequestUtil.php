@@ -1,14 +1,14 @@
 <?php
-namespace SolvireCommonUtilities\HTTP;
+namespace Solvire\HTTP;
 
 /**
  *
  * @author solvire <stevenjscott@gmail.com>
  * @package Solvire
- * @name sapce SolvireCommonUtilities\HTTP
+ * @name sapce Solvire\HTTP
  *      
  *       Usage:
- *       use SolvireCommonUtilities\HTTP\RequestUtil as Ru;
+ *       use Solvire\HTTP\RequestUtil as Ru;
  *       $ip = Ru::ip()
  */
 class RequestUtil
