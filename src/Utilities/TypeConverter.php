@@ -6,7 +6,7 @@ namespace Solvire\Utilities;
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Utilities
- * @namesapce Solvire\Utilities
+ * @namespace Solvire\Utilities
  */
 class TypeConverter
 {

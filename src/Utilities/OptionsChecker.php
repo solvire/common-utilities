@@ -8,7 +8,7 @@ namespace Solvire\Utilities;
  * @namespace Solvire\Utilities
  * 
  * Usage:
- *   use LF\Utility\OptionsChecker as Ch;
+ *   use Solvire\Utilities\OptionsChecker as Ch;
  *   Ch::ek($options, $requiredFields) 
  */
 class OptionsChecker
@@ -43,6 +43,7 @@ class OptionsChecker
 
     public static function ek($options, $requiredFields)
     {
+        print_r($requiredFields);
         $errors = self::checkOptions($options, $requiredFields);
         if (is_array($errors) && count($errors) > 0) {
             $ers = implode(',', $errors);
