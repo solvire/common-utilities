@@ -5,7 +5,7 @@ namespace Solvire\Application;
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Application
- * @namesapce Solvire\Application
+ * @namespace Solvire\Application
  * 
  * Usage:
  *   use Solvire\Application\Environment as Ev;

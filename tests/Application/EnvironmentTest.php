@@ -7,7 +7,8 @@ use Solvire\Application\Environment as Ev;
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Application
- * @namesapce Solvire\Application
+ * @namespace Solvire\Application
+ * @group Application 
  * 
  * Usage:
  *   use Solvire\Application\Environment as Ev;
