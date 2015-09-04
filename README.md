@@ -1,7 +1,11 @@
 # Common Function Library
 [![Build Status](https://travis-ci.org/solvire/common-utilities.svg)](https://travis-ci.org/solvire/common-utilities)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/solvire/common-utilities/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/solvire/common-utilities/?branch=master)
-
+[![Build Status](https://scrutinizer-ci.com/g/solvire/common-utilities/badges/build.png?b=master)](https://scrutinizer-ci.com/g/solvire/common-utilities/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/solvire/common-utilities/v/stable)](https://packagist.org/packages/solvire/common-utilities)
+[![Latest Unstable Version](https://poser.pugx.org/solvire/common-utilities/v/unstable)](https://packagist.org/packages/solvire/common-utilities)
+[![License](https://poser.pugx.org/solvire/common-utilities/license)](https://packagist.org/packages/solvire/common-utilities)
+[![Total Downloads](https://poser.pugx.org/solvire/common-utilities/downloads)](https://packagist.org/packages/solvire/common-utilities)
 
 ## About 
 
