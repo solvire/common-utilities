@@ -5,7 +5,7 @@ namespace Solvire\Utilities;
  * 
  * @author solvire <stevenjscott@gmail.com>
  * @package Solvire
- * @namesapce Solvire\Utilities
+ * @namespace Solvire\Utilities
  * 
  * Usage:
  *   use LF\Utility\OptionsChecker as Ch;
