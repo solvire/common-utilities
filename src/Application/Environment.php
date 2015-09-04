@@ -9,7 +9,7 @@ namespace Solvire\Application;
  * 
  * Usage:
  *   use Solvire\Application\Environment as Ev;
- *   Ev::get($options, $requiredFields) 
+ *   Ev::get($key)
  */
 class Environment
 {
@@ -29,6 +29,8 @@ class Environment
             return $val;
 
         // if we asked for it without a default then blow up
+        // this means that we aren't just going to fill it with nothing and keeps the slop down
+        // basically make sure you set your vars or you get angry letters 
         if ($default === null)
             throw new \RuntimeException("The environment variable $key must be set.");
         return $default;
