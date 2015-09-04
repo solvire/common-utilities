@@ -26,13 +26,14 @@
     </filter>
     <php>
         <env name="APP_ENV" value="testing"/>
+        <env name="APPLICATION_NAME" value="solvire-utilities" />
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>
         <env name="DATABASE_DRIVER" value="sqlite"/>
     </php>
     <logging>
-        <log type="coverage-html" target="../coverage/lflib" charset="UTF-8"
+        <log type="coverage-html" target="../coverage/solvire-utilities" charset="UTF-8"
             yui="true" highlight="true" lowUpperBound="50" highLowerBound="80" />
     </logging>
 </phpunit>
