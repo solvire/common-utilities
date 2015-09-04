@@ -1,4 +1,5 @@
 # Common Function Library
+[![Build Status](https://travis-ci.org/solvire/common-utilities.svg)](https://travis-ci.org/solvire/common-utilities)
 
 ## About 
 
