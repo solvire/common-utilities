@@ -1,5 +1,7 @@
 # Common Function Library
 [![Build Status](https://travis-ci.org/solvire/common-utilities.svg)](https://travis-ci.org/solvire/common-utilities)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/solvire/common-utilities/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/solvire/common-utilities/?branch=master)
+
 
 ## About 
 
