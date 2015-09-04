@@ -24,7 +24,7 @@ class OptionsChecker
     public static function checkOptions($options, $requiredFields)
     {
         if (! is_array($options) || ! is_array($requiredFields))
-            throw new InvalidParameterException("Your options are empty or not filled properly.");
+            throw new \RuntimeException("Your options are empty or not filled properly.");
         
         $fieldErrors = [];
         // right now we only deal with single dimension
@@ -46,7 +46,7 @@ class OptionsChecker
         $errors = self::checkOptions($options, $requiredFields);
         if (is_array($errors) && count($errors) > 0) {
             $ers = implode(',', $errors);
-            throw new InvalidParameterException("The following fields are not included: [$ers] ");
+            throw new \RuntimeException("The following fields are not included: [$ers] ");
         }
         return true;
     }
