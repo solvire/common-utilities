@@ -43,7 +43,6 @@ class OptionsChecker
 
     public static function ek($options, $requiredFields)
     {
-        print_r($requiredFields);
         $errors = self::checkOptions($options, $requiredFields);
         if (is_array($errors) && count($errors) > 0) {
             $ers = implode(',', $errors);
