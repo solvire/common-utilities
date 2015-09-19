@@ -1,6 +1,7 @@
 {
     "name": "solvire/common-utilities",
     "description": "Solvire Utilities Library",
+    "keywords": ["PHP","Utilities","formatters","HTTP"],
     "require": {
         "nesbot/carbon": "^1.19"
     },
